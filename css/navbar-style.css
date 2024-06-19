@@ -1,0 +1,158 @@
+/* GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body{
+    background-color: #040404;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex; 
+}
+
+h2.titulo{
+    color:#f4f4f4;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* HEADER */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #696969;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: #f4f4f4;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* LOGINS */
+
+header .logins a {
+  margin: 0 5px 0 5px;
+}
+
+ header .logins a {
+    color: #3AA40C;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+ header .logins a:hover {
+    color: #3AA40C;
+    font-weight: 900;
+    transform: scale(1.05);
+}
+
+header .logins a:active {
+  opacity: .5;
+}
+
+/* CRIAR CONTA */
+
+.btn-criarconta button{
+  background: #3AA40C;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-transform: none;
+  transition: .3s;
+}
+
+.btn-criarconta button:hover,
+.btn-criarconta button:active {
+  background-color: transparent;
+  border: 2px solid #3AA40C;
+  color: #3AA40C;
+  transform: scale(1.05);
+}
+
+.btn-criarconta button:active {
+  opacity: .5;
+}
+
+/* DROPDOWN */
+ 
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #101010e8;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+    z-index: 1;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #f4f4f4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a span{
+    font-weight: 800;
+  }
+
+    /* Show the dropdown menu on hover */
+  .dropdown-content a:hover {
+    color: #3AA40C;
+    padding: 12px 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+  }

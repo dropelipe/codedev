@@ -1,0 +1,28 @@
+/* FOOTER */
+
+footer{
+    padding: 70px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .btn-social button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #101010;
+    color: #f4f4f4;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+footer .btn-social button:hover{
+    background-color: #3AA40C;
+    color: #101010;
+    transform: scale(1.05);
+}
