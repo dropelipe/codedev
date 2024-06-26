@@ -23,6 +23,8 @@
     <!-- NAVBAR -->
     <?php    
     require('php/cabecalho.php');
+
+
     ?>
 
     <main>
@@ -45,7 +47,7 @@
                     </div><!--txt-topo-site-->
 
                     <div class="img-topo-site"><!--img-topo-site-->
-                        <img src="assets/icon_codedev.png" alt="Icone DevCode" width="300px">
+                        <img src="assets/undraw-guy_coding.png" alt="Icone DevCode" width="500px">
                     </div><!--img-topo-site-->
                 </div><!--flex-->
             </div><!--interface-->

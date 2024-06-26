@@ -16,13 +16,23 @@
 
             <hr>
             
-            <input type="text" placeholder="Insirir nome completo" name="name" id="name" required>
+            <input type="text" placeholder="Insira nome completo" name="name" id="name" required>
+
+            <input type="text" placeholder="Insira a cidade onde você reside" name="cidade" id="cidade" required>
+
+            <input type="text" placeholder="Insira o estado onde você reside" name="estado" id="estado" required>
+
+            <input type="text" placeholder="Insira o seu ano de nascimento" name="anonasc" id="anonasc" required>
+
+            <input type="text" placeholder="Insira o seu nível de escolaridade" name="escolaridade" id="escolaridade" required>
+
+            <input type="text" placeholder="Insira o seu sexo" name="sexo" id="sexo" required>
+
+            <input type="text" placeholder="Insira seu número de contato" name="telefone" id="telefone" required>
 
             <input type="text" placeholder="Insira email" name="email" id="email" required>
 
             <input type="password" placeholder="Criar senha" name="psw" id="psw" required>
-        
-            <input type="password" placeholder="Confirmar senha" name="psw-repeat" id="psw-repeat" required>
 
             <hr>
 
