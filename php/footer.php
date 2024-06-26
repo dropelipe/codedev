@@ -17,7 +17,7 @@
                 <div class="flex"><!--end flex-->
                     <div class="logo-footer"><!--logo-footer-->
                         <a href="index.php">
-                        <img src="images/logo_codedev.png" alt="Logo CodeDev" width="100px"></a>
+                        <img src="assets/logo_codedev.png" alt="Logo CodeDev" width="100px"></a>
                     </div><!--logo-footer-->
                         <div class=btn-social>
                             <a href="#"><button><i class="bi bi-github"></i></button></a>

@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code.Dev • Cursos gratuitos de programação</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <!--END GOOGLE FONTS-->
 
     <!--BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!--END BOOTSTRAP ICONS-->
 
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+    <!-- NAVBAR -->
     <?php    
     require('php/cabecalho.php');
     ?>
@@ -30,7 +30,7 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site"><!--txt-topo-site-->
-                        <h1>Akdjkghdg<br>
+                        <h1>Aprenda<br>
                             Codifique<br>
                             Cresça</h1>
 
@@ -45,7 +45,7 @@
                     </div><!--txt-topo-site-->
 
                     <div class="img-topo-site"><!--img-topo-site-->
-                        <img src="images/icon_codedev.png" alt="Icone DevCode" width="300px">
+                        <img src="assets/icon_codedev.png" alt="Icone DevCode" width="300px">
                     </div><!--img-topo-site-->
                 </div><!--flex-->
             </div><!--interface-->
@@ -56,19 +56,25 @@
                 <h2 class="titulo">CURSOS</h2>
                 <div class="flex"><!-- flex -->
                     <div class="cursos-cards"><!--cursos-cards-html-->
+                        <a href="pagcurso-HTML.php">   
                         <i class="bi bi-filetype-html"></i>
                         <h3>HTML</h3>
                         <p> Aprenda a  estrutura páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
+                        </a>
                     </div><!--end cursos-cards-html-->
                     <div class="cursos-cards"><!-- cursos-cards-css -->
+                        <a href="pagcurso-CSS.php">   
                         <i class="bi bi-filetype-css"></i>
                         <h3>CSS</h3>
                         <p> Com a linguagem CSS você vai poder estilizar o conteúdo visual do seu site</p>
+                        </a>
                     </div><!--end cursos-cards-css-->
                     <div class="cursos-cards"><!--cursos-cards-java-->
+                        <a href="pagcurso-JScript.php">   
                         <i class="bi bi-filetype-js"></i>
                         <h3>JavaScript</h3>
                         <p> Linguagem de programação que permite criar interfaces interativas em páginas web</p>
+                        </a>
                     </div><!--end cursos-cards-java-->
                 </div><!-- end flex -->
             </div><!-- end interface -->

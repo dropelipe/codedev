@@ -20,11 +20,11 @@
             <form action="#">
                 <div class="form-control">
                 <input type="text" required>
-                <label>Digite seu email</label>
+                <label>Email</label>
                 </div>
                 <div class="form-control">
                 <input type="password" required>
-                <label>Digite sua senha</label>
+                <label>Senha</label>
                 </div>
                 <div class="form-help">
 

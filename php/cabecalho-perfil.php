@@ -9,11 +9,12 @@
 
 </head>
 <body>
+    
     <header>
         <div class="interface"><!--end interface-->
             <div class="logo"><!--logo-->
-                <a href="index.php">
-                    <img src="assets/logo_codedev.png" alt="Logo CodeDev" width="150px">
+                <a href="perfil.php">
+                    <img src="images/logo_codedev.png" alt="Logo CodeDev" width="150px">
                 </a>
             </div><!--end logo-->
 
@@ -40,8 +41,8 @@
 
             <div class="logins-nav"> <!--logins-->
 
-                <a href="login.php">Login</a>
-                <a class="btn-criarconta" href="criarconta.php"><button>Criar conta</button></a>
+                <a href="login.php">Sair <i class="bi bi-box-arrow-in-right"></i></a>
+                <a class="btn-perfil" href="#"><button><i class="bi bi-person-circle"></i></button></a>
 
             </div><!--end logins-->
         </div><!--interface-->
