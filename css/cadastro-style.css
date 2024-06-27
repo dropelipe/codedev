@@ -1,0 +1,91 @@
+/* GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body{
+    background-color: #040404;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    }
+
+.container-cadastro{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.22);
+}
+
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/code-img-bckgrnd");
+}
+
+.form-image img{
+    width: 31rem;
+}
+
+form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #101010;
+    padding: 3rem;
+}
+
+.form-header{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-btn{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn button{
+    background: #3AA40C;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    text-transform: none;
+    transition: .3s;
+    }
+    
+.login-btn button:hover,
+.login-btn button:active {
+    background-color: transparent;
+    border: 2px solid #3AA40C;
+    color: #3AA40C;
+    transform: scale(1.05);
+}
+    
+.login-btn button:active {
+    opacity: .5;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 1rem;
+    padding: 1rem;
+}

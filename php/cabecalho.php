@@ -41,7 +41,7 @@
             <div class="logins-nav"> <!--logins-->
 
                 <a href="login.php">Login</a>
-                <a class="btn-criarconta" href="criarconta.php"><button>Criar conta</button></a>
+                <a class="btn-criarconta" href="cadastro.php"><button>Criar conta</button></a>
 
             </div><!--end logins-->
         </div><!--interface-->

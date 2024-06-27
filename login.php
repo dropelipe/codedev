@@ -19,15 +19,14 @@
         <h2>Entrar</h2>
             <form action="#">
                 <div class="form-control">
-                <input type="text" required>
-                <label>Email</label>
+                    <label>Email</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-control">
-                <input type="password" required>
-                <label>Senha</label>
+                    <label>Senha</label>
+                    <input type="password" id="password" name="password" required>
                 </div>
                 <div class="form-help">
-
                     <a href="#">Esqueci minha senha</a>
                     </div>
                 <button type="submit">Entrar</button>
