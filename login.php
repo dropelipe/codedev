@@ -14,12 +14,48 @@
 
 </head>
 <body>
+<?php
+require("php/conexao.php");
+
+
+    session_start();
+    if(isset($_SESSION['email'])){
+        $email = $_SESSION['email'];
+        
+    }else{
+
+    }
+   
+
+    if(isset($_POST['email']) && isset($_POST['password'])){
+        $email = $_POST['email'];
+        $senha = md5($_POST['password']);
+
+/*INFORMAÇÕES DO BANCO + html*/ 
+        $sql = $pdo->prepare("SELECT * FROM codigo_aluno WHERE email=? AND senha=?");
+        $sql -> execute(array($email, $senha));
+        $dados = $sql -> fetchAll();
+        var_dump($dados);
+        $dados['nome'];
+
+        // if(count($dados)==1){
+        // $_SESSION['email'] = $email;
+        // header('location:perfil.php');
+        // } elseif (count($dados)==0){
+        //     echo(
+        //         '<script> alert("Usuário ou senha incorretos"); </script>;'
+        //     );
+        // header('location:login.php');
+        // }
+    }
+
+?>
 
     <div class="form-wrapper">
         <h2>Entrar</h2>
-            <form action="#">
+            <form method="post">
                 <div class="form-control">
-                    <label>Email</label>
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-control">

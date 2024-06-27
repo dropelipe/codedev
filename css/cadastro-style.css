@@ -16,6 +16,14 @@ body{
     width: 100%;
     }
 
+h1{
+    color: #3AA40C;
+}
+
+label{
+    color:#f4f4f4
+}
+
 .container-cadastro{
     width: 80%;
     height: 80vh;
@@ -51,12 +59,12 @@ form{
     justify-content: space-between;
 }
 
-.login-btn{
+.login-btn .continue-btn{
     display: flex;
     align-items: center;
 }
 
-.login-btn button{
+.login-btn .continue-btn button{
     background: #3AA40C;
     border: none;
     border-radius: 20px;
@@ -71,15 +79,15 @@ form{
     transition: .3s;
     }
     
-.login-btn button:hover,
-.login-btn button:active {
+.login-btn .continue-btn button:hover,
+.login-btn .continue-btn button:active {
     background-color: transparent;
     border: 2px solid #3AA40C;
     color: #3AA40C;
     transform: scale(1.05);
 }
     
-.login-btn button:active {
+.login-btn .continue-btn button:active {
     opacity: .5;
 }
 
@@ -88,4 +96,10 @@ form{
     flex-wrap: wrap;
     justify-content: 1rem;
     padding: 1rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
 }
