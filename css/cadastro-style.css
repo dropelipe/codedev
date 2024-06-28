@@ -1,105 +1,152 @@
-/* GERAL */
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: "IBM Plex Mono", monospace;
 }
-
 body{
     background-color: #040404;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: 100vh;
+    padding: 20px;
+    min-height: 100vh;
+}
+.w50{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+.box{
+    display: flex;
+    width: 930px;
+}
+.img-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px  0 0 20px;
+}
+.img-box img{
     width: 100%;
-    }
-
-h1{
+}
+.form-box{
+    background-color: #111111;
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+}
+.form-box h2{
+    color: #F4F4F4;
+    font-size: 2rem;
+}
+.form-box p{
+    font-weight: bold;
+    color: #6E6E6E;
+}
+.form-box p a{
     color: #3AA40C;
+    text-decoration: none;
 }
-
-label{
-    color:#f4f4f4
+.form-box form{
+    margin: 20px 0;
 }
-
-.container-cadastro{
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.22);
+form .input-group{
+    margin-bottom: 15px;
 }
-
-.form-image{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("assets/code-img-bckgrnd");
+form .input-group label{
+    color: #F4F4F4;
+    display: block;
+    margin-bottom: 5px;
 }
-
-.form-image img{
-    width: 31rem;
+form .input-group input{
+    width: 100%;
+    height: 47px;
+    background-color: #232323;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 0.8rem;
+    color: #616161;
+    transition: all 0.4s ease;
 }
-
-form{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #101010;
-    padding: 3rem;
+form .input-group input:focus{
+    border-color: #232323;
+    background-color: transparent;
 }
-
-.form-header{
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.login-btn .continue-btn{
-    display: flex;
-    align-items: center;
-}
-
-.login-btn .continue-btn button{
+form .input-group button{
+    width: 100%;
+    height: 47px;
     background: #3AA40C;
+    border-radius: 5px;
+    outline: none;
     border: none;
-    border-radius: 20px;
-    box-sizing: border-box;
-    color: #FFFFFF;
+    margin-top: 15px;
+    color: white;
     cursor: pointer;
-    display: inline-block;
-    outline: 0;
-    padding: 0.4rem 1rem;
-    text-align: center;
-    text-transform: none;
-    transition: .3s;
-    }
-    
-.login-btn .continue-btn button:hover,
-.login-btn .continue-btn button:active {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+form .input-group button:hover,
+form .input-group button:active
+{
     background-color: transparent;
     border: 2px solid #3AA40C;
     color: #3AA40C;
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
-    
-.login-btn .continue-btn button:active {
+
+.btn-criarconta button:active {
     opacity: .5;
 }
 
-.input-group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: 1rem;
-    padding: 1rem;
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px) {
+    .w50{
+        width: 100%;
+        padding: 0;
+    }
 }
 
-.input-box{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
+select {
+    width: 100%;
+    height: 47px;
+    background-color: #232323;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 0.8rem;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+
+select:focus{
+    border-color: #232323;
+    background-color: transparent;
+    
+}
+
+option{
+    color: #F4F4F4;
+    background-color: #111111;
 }

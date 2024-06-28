@@ -32,8 +32,8 @@
                     </li>
 
                     <li><a href="sobre.php">Sobre</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Fórum</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="forum.php">Fórum</a></li>
                 </ul>
 
             </nav><!--end meu-desktop-->

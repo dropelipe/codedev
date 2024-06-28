@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login • Code.Dev</title>
-    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="css/cadastro-style.css">
 
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,72 +15,71 @@
 </head>
 <body>
 
-    <div class="form-wrapper">
-        <h2>Cadastra-se</h2>
+  <?php
+  require("php/conexao.php");
 
-          <div class="input-group">
+  ?>
 
-          <div class="form-control">
-
-            <div class="form-control">
-              <label for="fname">Primeiro nome</label>
-              <input type="text" id="fname" name="fname" placeholder="Digite seu primeiro nome" required>
-            </div>
-
-            <div class="form-control">
-              <label for="lname">Sobrenome</label>
-              <input type="text" id="lname" name="lname" placeholder="Digite seu sobrenome" required>
-            </div>
-
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-            </div>
-
-            <div class="form-control">
-              <label for="number">Número de contato</label>
-              <input type="tel" id="number" name="number" placeholder="Digite seu número de contato" required>
-            </div>
-
-            <div class="input-box">
-              <label for="state">Estado</label>
-              <input type="text" id="state" name="state" placeholder="Digite o estado onde você mora">
-            </div>
-
-            <div class="input-box">
-              <label for="city">Cidade</label>
-              <input type="text" id="city" name="city" placeholder="Digite a cidade onde você reside">
-            </div>
-
-            <div class="input-box">
-              <label for="year">Ano de nascimento</label>
-              <input type="number" id="year" name="year" placeholder="Digite o ano de nascimento">
-            </div>
-
-            <div class="input-box">
-              <label for="education">Nível de escolaridade</label>
-              <input type="text" id="education" name="education" placeholder="Digite o ano de nascimento">
-            </div>
-
-          </div><!-- end input-group -->
-
+<div class="box">
+        <div class="img-box">
+        </div>
+        <div class="form-box">
+            <h2>Criar Conta</h2>
+            <p> Já tem cadastro?<br>
+            <a href="login.php"> Acesse sua conta agora </a> </p>
             <form action="#">
-                <div class="form-control">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+
+                <div class="input-group">
+                    <label for="name"> Nome Completo</label>
+                    <input type="text" id="name" placeholder="Digite o seu nome completo" required>
                 </div>
-                <div class="form-control">
-                    <label>Senha</label>
-                    <input type="password" id="password" name="password" required>
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite o seu email" required>
                 </div>
-                <div class="form-help">
-                    <a href="#">Esqueci minha senha</a>
-                    </div>
-                <button type="submit">Entrar</button>
+
+                <div class="input-group w50">
+                    <label for="number">Telefone</label>
+                    <input type="tel" id="number" placeholder="Digite o seu telefone" required>
+                </div>
+
+                <div class="input-group w50">
+                <label for="number">CEP</label>
+                <input type="number" id="CEP" name="CEP" placeholder="Digite o seu CEP">
+                </div>
+
+                <div class="input-group w50">
+                <label for="number">Data de Nascimento</label>
+                  <input type="date" id="date" name="date" placeholder="Digite a sua Data de nascimento">
+                </div>
+
+                <div class="input-group w50">
+                <label for="education">Escolaridade</label>
+                  <select type="text" id="education" name="education">
+                    <option value="" class="head">Selecione seu nível</option>
+                    <option value="dog">Ensino Fundamental</option>
+                    <option value="parrot">Ensino Médio</option>
+                    <option value="spider">Ensino Superior</option>
+                    </select>
+                </div>
+
+                <div class="input-group w50">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="input-group w50">
+                    <label for="Confirmarsenha">Confirmar Senha</label>
+                    <input type="password" id="Confirmarsenha" placeholder="Confirme a senha" required>
+                </div>
+
+                <div class="input-group">
+                    <button>CADASTRAR</button>
+                </div>
+
             </form>
-                <p>Ainda não tem conta?<br>
-                <a href="criarconta.php">Cadastra-se agora</a></p>
+        </div>
     </div>
-  
 </body>
 </html>

@@ -23,8 +23,6 @@
     <!-- NAVBAR -->
     <?php    
     require('php/cabecalho.php');
-
-
     ?>
 
     <main>
@@ -61,7 +59,7 @@
                         <a href="pagcurso-HTML.php">   
                         <i class="bi bi-filetype-html"></i>
                         <h3>HTML</h3>
-                        <p> Aprenda a  estrutura páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
+                        <p> Aprenda a estruturar páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
                         </a>
                     </div><!--end cursos-cards-html-->
                     <div class="cursos-cards"><!-- cursos-cards-css -->
@@ -86,9 +84,9 @@
     </main>
 
     <!-- FOOTER -->
-        <?php    
-            require('php/footer.php');
-        ?>
+    <?php    
+        require('php/footer.php');
+    ?>
 
 </body>
 </html>
