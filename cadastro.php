@@ -34,12 +34,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 ?>
 
 <div class="box">
+
         <div class="img-box">
         </div>
+
         <div class="form-box">
             <h2>Criar Conta</h2>
             <p> Já tem cadastro?<br>
-            <a href="login.php"> Acesse sua conta agora </a> </p>
+            <a href="login.php"> Acesse sua conta</a> </p>
 
             <form method="post">
 

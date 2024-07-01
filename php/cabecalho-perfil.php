@@ -40,9 +40,12 @@
             </nav><!--end meu-desktop-->
 
             <div class="logins-nav"> <!--logins-->
-
-                <a href="login.php">Sair <i class="bi bi-box-arrow-in-right"></i></a>
-                <a class="btn-perfil" href="#"><button><i class="bi bi-person-circle"></i></button></a>
+                <div class="perfil dropdown ml-3 show" href="#">
+                    <button>
+                        <i class="bi bi-person-circle"></i>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                </div> <!-- end perfil dropdown ml-3 show-->
 
             </div><!--end logins-->
         </div><!--interface-->

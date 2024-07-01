@@ -43,25 +43,32 @@ require("conexao.php");
 
 ?>
 
-    <div class="form-wrapper">
-        <h2>Entrar</h2>
-            <form method="post">
-                <div class="form-control">
-                    <label for="email">Email</label>
+<div class="form-wrapper">
+    <h2>Entrar</h2>
+
+        <form method="post">
+            <div class="form-control">
+                <label for="email">Email</label>
                     <input type="email" id="email" name="email-codedev" required>
-                </div>
-                <div class="form-control">
-                    <label>Senha</label>
+            </div>
+
+            <div class="form-control">
+                <label>Senha</label>
                     <input type="password" id="password" name="pswrd-codedev" required>
-                </div>
-                <div class="form-help">
-                    <a href="#">Esqueci minha senha</a>
-                    </div>
-                <button type="submit">Entrar</button>
-            </form>
-                <p>Ainda não tem conta?<br>
-                <a href="cadastro.php">Cadastra-se agora</a></p>
-    </div>
+            </div>
+
+            <div class="form-help">
+                <a href="#">Esqueci minha senha</a>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <p>Ainda não tem conta?<br>
+
+        <a href="cadastro.php">Cadastra-se agora</a></p>
+</div>
+
   
 </body>
 </html>
