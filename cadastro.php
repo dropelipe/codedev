@@ -15,10 +15,23 @@
 </head>
 <body>
 
-  <?php
-  require("php/conexao.php");
+<?php
+require('conexao.php');
 
-  ?>
+if($_SERVER['REQUEST_METHOD'] == "POST"){
+
+    $nome = $_POST['name-codedev'];
+    $email = $_POST['email-codedev'];
+    $number = $_POST['number-codedev'];
+    $cep = $_POST['cep-codedev'];
+    $birth = $_POST['birth-codedev'];
+    $education = $_POST['education-codedev'];
+    $pswrd = md5($_POST['pswrd-codedev']);
+
+    $sql=$pdo-> prepare("INSERT INTO cadastro VALUES (NULL,?,?,?,?,?,?,?);");
+    $sql -> execute (array ($nome, $email, $number, $cep, $birth, $education,$pswrd));
+}
+?>
 
 <div class="box">
         <div class="img-box">
@@ -27,36 +40,37 @@
             <h2>Criar Conta</h2>
             <p> Já tem cadastro?<br>
             <a href="login.php"> Acesse sua conta agora </a> </p>
-            <form action="#">
+
+            <form method="post">
 
                 <div class="input-group">
                     <label for="name"> Nome Completo</label>
-                    <input type="text" id="name" placeholder="Digite o seu nome completo" required>
+                    <input type="text" name="name-codedev" id="name" placeholder="Digite o seu nome completo" required>
                 </div>
 
                 <div class="input-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="Digite o seu email" required>
+                    <input type="email" name="email-codedev" id="email" placeholder="Digite o seu email" required>
                 </div>
 
                 <div class="input-group w50">
                     <label for="number">Telefone</label>
-                    <input type="tel" id="number" placeholder="Digite o seu telefone" required>
+                    <input type="tel" name="number-codedev" id="number" placeholder="Digite o seu telefone" required>
                 </div>
 
                 <div class="input-group w50">
                 <label for="number">CEP</label>
-                <input type="number" id="CEP" name="CEP" placeholder="Digite o seu CEP">
+                <input type="number" name="cep-codedev" id="CEP" name="CEP" placeholder="Digite o seu CEP">
                 </div>
 
                 <div class="input-group w50">
-                <label for="number">Data de Nascimento</label>
-                  <input type="date" id="date" name="date" placeholder="Digite a sua Data de nascimento">
+                <label for="birth">Data de Nascimento</label>
+                  <input type="date" name="birth-codedev"  id="birth" name="birth" placeholder="Digite a sua Data de nascimento">
                 </div>
 
                 <div class="input-group w50">
                 <label for="education">Escolaridade</label>
-                  <select type="text" id="education" name="education">
+                  <select type="text" name="education-codedev"  id="education" name="education">
                     <option value="" class="head">Selecione seu nível</option>
                     <option value="dog">Ensino Fundamental</option>
                     <option value="parrot">Ensino Médio</option>
@@ -65,13 +79,13 @@
                 </div>
 
                 <div class="input-group w50">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                    <label for="pswrd">Senha</label>
+                    <input type="password" name="pswrd-codedev" id="pswrd" placeholder="Digite sua senha" required>
                 </div>
 
                 <div class="input-group w50">
-                    <label for="Confirmarsenha">Confirmar Senha</label>
-                    <input type="password" id="Confirmarsenha" placeholder="Confirme a senha" required>
+                    <label for="confirmationpswrd">Confirmar Senha</label>
+                    <input type="password" id="confirmationpswrd" placeholder="Confirme a senha" required>
                 </div>
 
                 <div class="input-group">

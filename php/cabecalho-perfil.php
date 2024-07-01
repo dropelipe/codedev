@@ -14,7 +14,7 @@
         <div class="interface"><!--end interface-->
             <div class="logo"><!--logo-->
                 <a href="perfil.php">
-                    <img src="images/logo_codedev.png" alt="Logo CodeDev" width="150px">
+                    <img src="assets/logo_codedev.png" alt="Logo CodeDev" width="150px">
                 </a>
             </div><!--end logo-->
 

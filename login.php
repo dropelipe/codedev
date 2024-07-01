@@ -15,38 +15,30 @@
 </head>
 <body>
 <?php
-require("php/conexao.php");
+require("conexao.php");
 
 
     session_start();
-    if(isset($_SESSION['email'])){
-        $email = $_SESSION['email'];
-        
-    }else{
 
-    }
-   
-
-    if(isset($_POST['email']) && isset($_POST['password'])){
-        $email = $_POST['email'];
-        $senha = md5($_POST['password']);
+    if(isset($_POST['email-codedev']) && isset($_POST['pswrd-codedev'])){
+        $email = $_POST['email-codedev'];
+        $senha = md5($_POST['pswrd-codedev']);
 
 /*INFORMAÇÕES DO BANCO + html*/ 
-        $sql = $pdo->prepare("SELECT * FROM codigo_aluno WHERE email=? AND senha=?");
+        echo"teste";
+        $sql = $pdo->prepare("SELECT email, pswrd FROM cadastro WHERE email=? AND pswrd=?");
         $sql -> execute(array($email, $senha));
         $dados = $sql -> fetchAll();
-        var_dump($dados);
-        $dados['nome'];
 
-        // if(count($dados)==1){
-        // $_SESSION['email'] = $email;
-        // header('location:perfil.php');
-        // } elseif (count($dados)==0){
-        //     echo(
-        //         '<script> alert("Usuário ou senha incorretos"); </script>;'
-        //     );
-        // header('location:login.php');
-        // }
+        if(count($dados)==1){
+        $_SESSION['email'] = $email;
+        header('location:perfil.php');
+        } elseif (count($dados)==0){
+        echo(
+        '<script> alert("Usuário ou senha incorretos"); </script>;'
+        );
+        header('location:index.php');
+        }
     }
 
 ?>
@@ -56,11 +48,11 @@ require("php/conexao.php");
             <form method="post">
                 <div class="form-control">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email-codedev" required>
                 </div>
                 <div class="form-control">
                     <label>Senha</label>
-                    <input type="password" id="password" name="password" required>
+                    <input type="password" id="password" name="pswrd-codedev" required>
                 </div>
                 <div class="form-help">
                     <a href="#">Esqueci minha senha</a>
@@ -68,7 +60,7 @@ require("php/conexao.php");
                 <button type="submit">Entrar</button>
             </form>
                 <p>Ainda não tem conta?<br>
-                <a href="criarconta.php">Cadastra-se agora</a></p>
+                <a href="cadastro.php">Cadastra-se agora</a></p>
     </div>
   
 </body>
