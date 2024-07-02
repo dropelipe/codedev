@@ -35,48 +35,71 @@
     }
     ?>
 
-    <main>
+<main>
         <section class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site"><!--txt-topo-site-->
-                        <h1>Olá,</h1>
-                    </div>
-                </div>
-            </div>
+                        <h1>Olá,<br>
+                            Felipe</h1>
 
-            <section class="menu-perfil">
-                <div class="interface">
-                    <div class="flex">
+                            <p>Sua jornada<br>
+                            <strong>Code<span>.</span>Dev</strong> começou</p>
 
-                        <div class="perfil-cards">
-                            <a href="pagcurso-HTML.php">   
-                            <i class="bi bi-collection-play-fill"></i>
-                            <h3>MEUS CURSOS</h3>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site"><!--img-topo-site-->
+                        <img src="assets/Ativo 1.png" alt="Icone DevCode" width="500px">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+        
+        <section class="cursos"><!-- cursos -->
+            <div class="interface"><!-- interface -->
+                <h2 class="titulo">MEUS CURSOS</h2>
+
+                <div class="flex"><!-- flex -->
+                    <div class="cursos-cards"><!--cursos-cards-html-->
+                        <img width="60" height="60" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                        <h3>HTML</h3>
+                        <p> Aprenda a estruturar páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
+                        <div class="btn-play"><!--btn-login-->
+                            <a href="#">
+                                <button><i class="bi bi-play-circle"></i></button>
                             </a>
-                        </div>
+                        </div><!--btn-contato-->
+                    </div><!--end cursos-cards-html-->
 
-                        <div class="perfil-cards">
-                            <a href="#">   
-                            <i class="bi bi-person-lines-fill"></i>
-                            <h3>CADASTRO</h3>
+                    <div class="cursos-cards"><!-- cursos-cards-css -->
+                        <img width="60" height="60" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+                        <h3>CSS</h3>
+                        <p> Com a linguagem CSS você vai poder estilizar o conteúdo visual do seu site</p>
+                        <div class="btn-play"><!--btn-login-->
+                            <a href="#">
+                                <button><i class="bi bi-play-circle"></i></button>
                             </a>
-                        </div>
+                        </div><!--btn-contato-->
 
-                        <div class="perfil-cards">
-                            <a href="#">   
-                            <i class="bi bi-question-circle-fill"></i>
-                            <h3>AJUDA</h3>
+                    </div><!--end cursos-cards-css-->
+                    <div class="cursos-cards"><!--cursos-cards-java-->
+                        <img width="60" height="60" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+                        <h3>JavaScript</h3>
+                        <p> Linguagem de programação que permite criar interfaces interativas em páginas web</p>
+                        <div class="btn-play"><!--btn-login-->
+                            <a href="#">
+                                <button><i class="bi bi-play-circle"></i></button>
                             </a>
-                        </div>
+                        </div><!--btn-contato-->
+                    </div><!--end cursos-cards-java-->
 
-                    </div>
-                </div>
-            </section>
+                </div><!-- end flex -->
+                
+            </div><!-- end interface -->
 
-        </section>
+        </section><!-- end cursos -->
+    
     </main>
-
 <!-- FOOTER -->
  
 <?php    

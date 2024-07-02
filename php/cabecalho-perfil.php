@@ -25,27 +25,19 @@
                                 <a href="pagcurso-HTML.php">HTML</a>
                                 <a href="pagcurso-CSS.php">CSS</a>
                                 <a href="pagcurso-JScript.php">JavaScript</a>
-                                <a href="#">Angular</a>
-                                <a href="#">SQL</a>
-                                <a href="#">Python</a>
-                                <a href="#"><span>Todos os cursos<span></a>
                                 </div>
                     </li>
 
                     <li><a href="sobre.php">Sobre</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Fórum</a></li>
+
                 </ul>
 
             </nav><!--end meu-desktop-->
 
             <div class="logins-nav"> <!--logins-->
-                <div class="perfil dropdown ml-3 show" href="#">
-                    <button>
-                        <i class="bi bi-person-circle"></i>
-                        <i class="bi bi-chevron-down"></i>
-                    </button>
-                </div> <!-- end perfil dropdown ml-3 show-->
+
+                <a href="login.php">Sair <i class="bi bi-box-arrow-in-right"></i></a>
+                <a class="btn-perfil" href="#"><button><i class="bi bi-person-circle"></i></button></a>
 
             </div><!--end logins-->
         </div><!--interface-->

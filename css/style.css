@@ -387,7 +387,7 @@ section.cursos .flex{
 gap: 60px;
 }
 
-.cursos-cards > a{
+.cursos-cards{
 color: #f4f4f4;
 padding: 45px;
 border-radius: 20px;
@@ -395,14 +395,9 @@ margin-top: 45px;
 transition: .2s;
 }
 
-.cursos-cards > a:hover{
+.cursos-cards:hover{
 transform: scale(1.05);
 box-shadow: 0 0 10px #f4f4f43d;
-}
-
-.cursos .cursos-cards i{
-font-size: 80px;
-color: #3AA40C;
 }
 
 .cursos .cursos-cards h3{
@@ -817,3 +812,26 @@ input {
 .container.right-panel-active .overlay-right {
     transform: translateX(20%);
 }
+
+.btn-play button{
+    background-color: transparent;
+    border: 2px solid #3AA40C;
+    color: #3AA40C;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    transition: .3s;
+    }
+    
+    .btn-play button:hover{
+    background-color: transparent;
+    border: 2px solid #3AA40C;
+    color: #3AA40C;
+    }
+    
+    .btn-play button:active{
+    opacity: .5;
+    }

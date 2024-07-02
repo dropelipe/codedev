@@ -54,23 +54,25 @@
         <section class="cursos"><!-- cursos -->
             <div class="interface"><!-- interface -->
                 <h2 class="titulo">CURSOS</h2>
+
                 <div class="flex"><!-- flex -->
                     <div class="cursos-cards"><!--cursos-cards-html-->
-                        <i><a href="assets/"></a></i>
+                        <img width="60" height="60" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
                         <h3>HTML</h3>
                         <p> Aprenda a estruturar páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
                     </div><!--end cursos-cards-html-->
                     <div class="cursos-cards"><!-- cursos-cards-css -->
-                        <i></i>
+                        <img width="60" height="60" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
                         <h3>CSS</h3>
                         <p> Com a linguagem CSS você vai poder estilizar o conteúdo visual do seu site</p>
                     </div><!--end cursos-cards-css-->
                     <div class="cursos-cards"><!--cursos-cards-java-->
-                        <i></i>
+                        <img width="60" height="60" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
                         <h3>JavaScript</h3>
                         <p> Linguagem de programação que permite criar interfaces interativas em páginas web</p>
                     </div><!--end cursos-cards-java-->
                 </div><!-- end flex -->
+                
             </div><!-- end interface -->
 
         </section><!-- end cursos -->

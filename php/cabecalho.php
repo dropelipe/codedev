@@ -24,16 +24,10 @@
                                 <a href="pagcurso-HTML.php">HTML</a>
                                 <a href="pagcurso-CSS.php">CSS</a>
                                 <a href="pagcurso-JScript.php">JavaScript</a>
-                                <a href="#">Angular</a>
-                                <a href="#">SQL</a>
-                                <a href="#">Python</a>
-                                <a href="#"><span>Todos os cursos<span></a>
                                 </div>
                     </li>
 
                     <li><a href="sobre.php">Sobre</a></li>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="forum.php">Fórum</a></li>
                 </ul>
 
             </nav><!--end meu-desktop-->
