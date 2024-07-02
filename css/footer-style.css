@@ -8,9 +8,9 @@ footer .flex{
     justify-content: space-between;
 }
 
-footer .btn-social button{
-    width: 30px;
-    height: 30px;
+footer .btn-socialmedia button{
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     border: none;
     background-color: #101010;
@@ -21,7 +21,7 @@ footer .btn-social button{
     transition: .2s;
 }
 
-footer .btn-social button:hover{
+footer .btn-socialmedia button:hover{
     background-color: #3AA40C;
     color: #101010;
     transform: scale(1.05);

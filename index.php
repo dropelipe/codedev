@@ -56,25 +56,19 @@
                 <h2 class="titulo">CURSOS</h2>
                 <div class="flex"><!-- flex -->
                     <div class="cursos-cards"><!--cursos-cards-html-->
-                        <a href="pagcurso-HTML.php">   
-                        <i class="bi bi-filetype-html"></i>
+                        <i><a href="assets/"></a></i>
                         <h3>HTML</h3>
                         <p> Aprenda a estruturar páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
-                        </a>
                     </div><!--end cursos-cards-html-->
                     <div class="cursos-cards"><!-- cursos-cards-css -->
-                        <a href="pagcurso-CSS.php">   
-                        <i class="bi bi-filetype-css"></i>
+                        <i></i>
                         <h3>CSS</h3>
                         <p> Com a linguagem CSS você vai poder estilizar o conteúdo visual do seu site</p>
-                        </a>
                     </div><!--end cursos-cards-css-->
                     <div class="cursos-cards"><!--cursos-cards-java-->
-                        <a href="pagcurso-JScript.php">   
-                        <i class="bi bi-filetype-js"></i>
+                        <i></i>
                         <h3>JavaScript</h3>
                         <p> Linguagem de programação que permite criar interfaces interativas em páginas web</p>
-                        </a>
                     </div><!--end cursos-cards-java-->
                 </div><!-- end flex -->
             </div><!-- end interface -->

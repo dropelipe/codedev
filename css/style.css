@@ -387,7 +387,7 @@ section.cursos .flex{
 gap: 60px;
 }
 
-.cursos .cursos-cards{
+.cursos-cards > a{
 color: #f4f4f4;
 padding: 45px;
 border-radius: 20px;
@@ -395,7 +395,7 @@ margin-top: 45px;
 transition: .2s;
 }
 
-.cursos .cursos-cards:hover{
+.cursos-cards > a:hover{
 transform: scale(1.05);
 box-shadow: 0 0 10px #f4f4f43d;
 }
