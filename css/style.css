@@ -836,7 +836,7 @@ input {
     opacity: .5;
     }
 
-    main{
+    iframe{
         display: flex;
         align-content: center;
     }

@@ -24,7 +24,9 @@
     ?>
     
     <main>
+        <div class="interface"><!-- interface -->
             <iframe class="video" width="980" height="551,25" src="https://www.youtube.com/embed/jgQjeqGRdgA?si=52WoYlQDdctoXyI6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </main>
 </body>
 </html>

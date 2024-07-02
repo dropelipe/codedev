@@ -25,14 +25,26 @@
    <?php    
     require('php/cabecalho-perfil.php');
 
-    
+    require("conexao.php");
+
     session_start();
     if(isset($_SESSION['email'])){
         $email = $_SESSION['email'];
-        
-    }else{
+        $sql = $pdo->prepare("SELECT * FROM cadastro WHERE email=?");
+        $sql -> execute(array($email));
+        $dados = $sql -> fetchAll();
 
+        //var_dump($dados);
+        //$nome = $dados["nome"];
+
+        foreach($dados as $chave){
+                $nome = explode(" ", $chave["nome"]);
+                $email = $chave["email"];
+        }
+       
     }
+
+
     ?>
 
 <main>
@@ -40,11 +52,11 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site"><!--txt-topo-site-->
-                        <h1>Olá,<br>
-                            Felipe</h1>
-
-                            <p>Sua jornada<br>
-                            <strong>Code<span>.</span>Dev</strong> começou</p>
+                        <?php 
+                            echo ("<h1>Olá, <br>".$nome[0]."</h1>");
+                        ?>
+                        <p>Sua jornada<br>
+                        <strong>Code<span>.</span>Dev</strong> começou</p>
 
                     </div><!--txt-topo-site-->
 
