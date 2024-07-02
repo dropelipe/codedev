@@ -65,7 +65,7 @@
                         <h3>HTML</h3>
                         <p> Aprenda a estruturar páginas web com a Linguagem de Marcação de HiperTexto (HTML)</p>
                         <div class="btn-play"><!--btn-login-->
-                            <a href="#">
+                            <a href="player.php">
                                 <button><i class="bi bi-play-circle"></i></button>
                             </a>
                         </div><!--btn-contato-->
@@ -76,7 +76,7 @@
                         <h3>CSS</h3>
                         <p> Com a linguagem CSS você vai poder estilizar o conteúdo visual do seu site</p>
                         <div class="btn-play"><!--btn-login-->
-                            <a href="#">
+                            <a href="player.php">
                                 <button><i class="bi bi-play-circle"></i></button>
                             </a>
                         </div><!--btn-contato-->
@@ -87,7 +87,7 @@
                         <h3>JavaScript</h3>
                         <p> Linguagem de programação que permite criar interfaces interativas em páginas web</p>
                         <div class="btn-play"><!--btn-login-->
-                            <a href="#">
+                            <a href="player.php">
                                 <button><i class="bi bi-play-circle"></i></button>
                             </a>
                         </div><!--btn-contato-->
@@ -98,6 +98,7 @@
             </div><!-- end interface -->
 
         </section><!-- end cursos -->
+
     
     </main>
 <!-- FOOTER -->

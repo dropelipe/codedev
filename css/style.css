@@ -835,3 +835,8 @@ input {
     .btn-play button:active{
     opacity: .5;
     }
+
+    main{
+        display: flex;
+        align-content: center;
+    }
