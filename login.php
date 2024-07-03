@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <!--END GOOGLE FONTS-->
-
+    <script>
+        function funcao1()
+        {alert("Enviamos um email de redefinição de senha");}
+    </script>
 </head>
 <body>
 <?php
@@ -19,6 +22,7 @@ require("conexao.php");
 
 
     session_start();
+
 
     if(isset($_POST['email-codedev']) && isset($_POST['pswrd-codedev'])){
         $email = $_POST['email-codedev'];
@@ -63,7 +67,8 @@ require("conexao.php");
             </div>
 
             <div class="form-help">
-                <a href="#">Esqueci minha senha</a>
+                <a href="#" onclick="funcao1()">Esqueci minha senha
+                </a>
             </div>
 
             <button type="submit">Entrar</button>
@@ -74,6 +79,5 @@ require("conexao.php");
         <a href="cadastro.php">Cadastra-se agora</a></p>
 </div>
 
-  
 </body>
 </html>

@@ -43,8 +43,9 @@
 
                             <!--intro-->
                             <h2 class="fw-bolder mb-3"> Curso CSS</h2>
-                            <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur. Tristique non eget felis in mattis nullam proin. Dis nisl vel tortor massa ultricies. Dolor lacus pretium vestibulum egestas libero vel suspendisse quis ac. Ut arcu faucibus enim morbi sodales malesuada dui ac. Venenatis convallis feugiat nullam scelerisque tempus. Bibendum ut nulla quis urna consectetur proin fames tortor. Non etiam sed elementum dolor feugiat pellentesque ac.
-                            <br>At gravida nibh sed ullamcorper elementum. Etiam pulvinar in pellentesque diam auctor. Nullam enim et pulvinar lorem diam faucibus integer erat. Fusce habitasse arcu amet venenatis ultrices quis nec phasellus pellentesque. Dui ac donec leo nulla etiam. Et sit faucibus commodo ipsum facilisi facilisi. Eleifend dictum pellentesque elementum porta amet accumsan ut.
+                            <p class="lead fw-normal text-muted mb-0">
+                            CSS (Cascading Style Sheets) é uma linguagem utilizada para descrever a apresentação de um documento HTML (ou XML). Com CSS, você pode controlar o layout, as cores, as fontes e outros aspectos visuais de como páginas web são exibidas em diferentes dispositivos.
+                            
                             </p>
                         </div>
 
@@ -96,7 +97,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong> Separação de Conteúdo e Estilo: CSS permite separar a estrutura do conteúdo HTML da sua apresentação visual. Isso melhora a manutenção do código, tornando-o mais fácil de modificar e atualizar. <code></code>
                         </div>
                         </div>
                     </div>
@@ -108,7 +109,7 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender.</strong> Estilo Cascata: O "Cascading" em CSS refere-se à priorização de estilos quando há conflitos. Estilos podem ser definidos em diferentes lugares (no próprio documento, em arquivos externos, etc.) e o navegador segue regras específicas para aplicar os estilos. <code></code>
                         </div>
                         </div>
                     </div>
@@ -121,7 +122,7 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender </strong>Seletor e Propriedades: CSS usa seletores para aplicar estilos a elementos específicos do HTML e propriedades para definir como esses elementos devem ser estilizados. Por exemplo, você pode usar um seletor como h1 para estilizar todos os títulos de nível 1 no seu documento, e propriedades como color, font-size, margin, entre outras, para definir como esses elementos devem parecer. <code></code>
                         </div>
                         </div>
                     </div>

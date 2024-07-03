@@ -43,8 +43,9 @@
 
                             <!--intro-->
                             <h2 class="fw-bolder mb-3"> Curso HTML</h2>
-                            <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur. Tristique non eget felis in mattis nullam proin. Dis nisl vel tortor massa ultricies. Dolor lacus pretium vestibulum egestas libero vel suspendisse quis ac. Ut arcu faucibus enim morbi sodales malesuada dui ac. Venenatis convallis feugiat nullam scelerisque tempus. Bibendum ut nulla quis urna consectetur proin fames tortor. Non etiam sed elementum dolor feugiat pellentesque ac.
-                            <br>At gravida nibh sed ullamcorper elementum. Etiam pulvinar in pellentesque diam auctor. Nullam enim et pulvinar lorem diam faucibus integer erat. Fusce habitasse arcu amet venenatis ultrices quis nec phasellus pellentesque. Dui ac donec leo nulla etiam. Et sit faucibus commodo ipsum facilisi facilisi. Eleifend dictum pellentesque elementum porta amet accumsan ut.
+                            <p class="lead fw-normal text-muted mb-0">Introdução ao HTML (HyperText Markup Language):
+                                HTML é a linguagem padrão utilizada para criar e estruturar páginas web. Ele fornece a estrutura básica de um documento, permitindo que você defina o conteúdo textual, multimídia e os elementos de interação dentro de uma página.
+
                             </p>
                         </div>
 
@@ -74,7 +75,7 @@
                     </div>
 
                     <div class="btn-comece-agora btn-pagcurso"><!--btn-login-->
-                            <a href="player.php">
+                            <a href="login.php">
                                 <button>Começe agora!</button>
                             </a>
                         </div><!--btn-contato-->
@@ -96,7 +97,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong> Estruturação de Conteúdo: HTML permite organizar o conteúdo de uma página web em diferentes seções usando elementos como html, head, body, header, footer, section, article, entre outros. Cada elemento desempenha um papel específico na estruturação do conteúdo.<code></code>
                         </div>
                         </div>
                     </div>
@@ -108,7 +109,7 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender </strong> Elementos e Tags: Elementos HTML são representados por tags, como <p> para parágrafos, h1 a h6 para títulos de diferentes níveis, img para imagens, a para links, div para divisões genéricas, entre muitos outros. Cada tag define um tipo de conteúdo ou funcionalidade na página. <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                         </div>
                     </div>

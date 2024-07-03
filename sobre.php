@@ -72,31 +72,24 @@
                 <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5 mb-5 mb-xl-0">
                         <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4" src="assets/Rodolfo Eligard.png" alt="..." />
-                            <h5 class="fw-bolder">Rodolfo Eligard</h5>
-                        <div class="fst-italic text-muted">Fundador &amp; CEO</div>
+                            <img class="img-fluid rounded-circle mb-4 px-4" src="assets/Felipe.png" alt="..." />
+                            <h5 class="fw-bolder">Felipe Cavalcante</h5>
+                        <div class="fst-italic text-muted">Fundador &amp; CEO <br> Frontend &amp; Backend </div>
                         </div>
                         </div>
                         
                         <div class="col mb-5 mb-5 mb-xl-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="assets/Savannah Nguyen.png" alt="..." />
-                                <h5 class="fw-bolder">Savannah Nguyen</h5>
-                                <div class="fst-italic text-muted">Co-Fundadora &amp; CFO</div>
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="assets/bismarck.png" alt="..." />
+                                <h5 class="fw-bolder">Bismarck Menezes</h5>
+                                <div class="fst-italic text-muted">Co-Fundador &amp; CFO <br> Backend &amp; Banco de Dados</div>
                             </div>
                         </div>
                         <div class="col mb-5 mb-5 mb-sm-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="assets/Leslie Alexander.png" alt="..." />
-                                <h5 class="fw-bolder">Leslie Alexander</h5>
-                                <div class="fst-italic text-muted">Operations Manager</div>
-                            </div>
-                        </div>
-                        <div class="col mb-5">
-                            <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="assets/Hoon Ryu.png" alt="..." />
-                                <h5 class="fw-bolder">Hoon Ryu</h5>
-                                <div class="fst-italic text-muted">CTO</div>
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="assets/genilton.png" alt="..." />
+                                <h5 class="fw-bolder">Genilton Marques</h5>
+                                <div class="fst-italic text-muted">Operations Manager <br> Backend</div>
                             </div>
                         </div>
                     </div>

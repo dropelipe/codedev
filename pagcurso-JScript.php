@@ -43,8 +43,10 @@
 
                             <!--intro-->
                             <h2 class="fw-bolder mb-3"> Curso JavaScript</h2>
-                            <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur. Tristique non eget felis in mattis nullam proin. Dis nisl vel tortor massa ultricies. Dolor lacus pretium vestibulum egestas libero vel suspendisse quis ac. Ut arcu faucibus enim morbi sodales malesuada dui ac. Venenatis convallis feugiat nullam scelerisque tempus. Bibendum ut nulla quis urna consectetur proin fames tortor. Non etiam sed elementum dolor feugiat pellentesque ac.
-                            <br>At gravida nibh sed ullamcorper elementum. Etiam pulvinar in pellentesque diam auctor. Nullam enim et pulvinar lorem diam faucibus integer erat. Fusce habitasse arcu amet venenatis ultrices quis nec phasellus pellentesque. Dui ac donec leo nulla etiam. Et sit faucibus commodo ipsum facilisi facilisi. Eleifend dictum pellentesque elementum porta amet accumsan ut.
+                            <p class="lead fw-normal text-muted mb-0">Curso de linguagem JavaScript, voltado para iniciantes e para quem quiser aprender mais sobre ECMAScript, a versão padronizada do JS. Em um curso patrocinado pelo Google, o professor Gustavo Guanabara vai ensinar o conteúdo básico em 6 módulos que vão desde o conhecimento da linguagem até o uso de funções.
+                            <br>Em programação JavaScript, você aprende uma variedade de conceitos e técnicas fundamentais que são essenciais para desenvolver aplicações web interativas. Aqui estão alguns dos principais tópicos que você geralmente aprende ao estudar JavaScript:
+
+
                             </p>
                         </div>
 
@@ -74,7 +76,7 @@
                     </div>
 
                     <div class="btn-comece-agora btn-pagcurso"><!--btn-login-->
-                            <a href="login.php">
+                      <a href="login.php">
                                 <button>Começe agora!</button>
                             </a>
                         </div><!--btn-contato-->
@@ -96,7 +98,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong> Sintaxe Básica: Como escrever código JavaScript corretamente, incluindo variáveis, operadores, estruturas de controle (como if-else, switch), loops (como for, while), funções, etc. <code>ideias de funcao</code>, e ETC.
                         </div>
                         </div>
                     </div>
@@ -108,7 +110,7 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender .</strong> Tipos de Dados: Os diferentes tipos de dados em JavaScript, <code></code>  como números, strings, booleanos, arrays, objetos, null e undefined..
                         </div>
                         </div>
                     </div>
@@ -121,7 +123,7 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong> Funções: Como definir funções, passar argumentos para funções, retornar valores e o escopo de  <code>variáveis dentro de funções</code>,aproveite.
                         </div>
                         </div>
                     </div>
@@ -135,7 +137,8 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong> Estrutura de dados do Javascript
+                            Todas as linguagens de programação têm estruturas de dados embutidas, mas geralmente diferem de uma linguagem para outra. Este artigo tenta listar as estruturas de dados internas disponíveis em JavaScript e quais propriedades elas possuem. Estes podem ser usados para construir outras estruturas de dados. Sempre que possível, são feitas comparações com outras línguas. <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                         </div>
                     </div>
@@ -149,7 +152,7 @@
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong>  é uma poderosa linguagem de programação que pode adicionar interatividade a um site. Foi inventado por Brendan Eich. JavaScript é versátil e amigável para iniciantes. Com mais experiência, você poderá criar jogos, gráficos 2D e 3D animados,  <code>aplicativos abrangentes baseados em banco de dados e muito mais!</code>, e com exelente didatica
                         </div>
                         </div>
                     </div>
@@ -163,7 +166,7 @@
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender</strong> Uma das formas mais simples de criar uma entrada de dados em JavaScript é utilizando a função prompt(), que exibe uma caixa de diálogo ao usuário para inserir os dados desejados. Veja um exemplo: let nome = prompt("Digite seu nome: "); Neste exemplo, a variável “nome” irá armazenar o valor digitado pelo usuário. <code></code>,números, strings, booleanos, objetos, arrays, null e undefined.
                         </div>
                         </div>
                     </div>
@@ -177,7 +180,7 @@
                         </h2>
                         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>O que voce vai aprender.</strong> A linguagem de programação Javascript permite ao desenvolvedor implementar diversos itens de alto nível de complexidade em páginas web, como animações, mapas, gráficos ou informações que se atualizam em intervalos de tempo padrão <code></code>,  criar interações dinâmicas, validar formulários, manipular dados, realizar chamadas assíncronas e muito mais. Principais características do HTML: Front-end Development. Desenvolvimento de Aplicativos Móveis
                         </div>
                         </div>
                     </div>
@@ -190,8 +193,7 @@
                         </button>
                         </h2>
                         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body">Os principais tipos de dados em Javascript incluem números, strings, booleanos, objetos, arrays, null e undefined <code></code>.
                         </div>
                         </div>
                     </div>
@@ -205,7 +207,7 @@
                         </h2>
                         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>são o mecanismo pelo qual objetos JavaScript herdam recursos uns dos outros. Neste artigo, explicamos como as cadeias de protótipos funcionam e observamos como a propriedade prototype pode ser usada para adicionar métodos aos construtores existentes. <code></code>
                         </div>
                         </div>
                     </div>
@@ -225,7 +227,7 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeleven" aria-expanded="false" aria-controls="collapseTen">
                             Namespaces falsos e IIFEs
                         </button>
                         </h2>
@@ -238,7 +240,7 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwelven" aria-expanded="false" aria-controls="collapseTen">
                             Resumo do modulo
                         </button>
                         </h2>
@@ -251,7 +253,7 @@
                     
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetheven" aria-expanded="false" aria-controls="collapseEleven">
                             Atividade avaliativa
                         </button>
                         </h2>

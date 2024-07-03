@@ -22,9 +22,9 @@
                 <ul>
                     <li class="dropdown"><a>Cursos <i class="bi bi-chevron-compact-down"></i></a>
                             <div class="dropdown-content">
-                                <a href="pagcurso-HTML.php">HTML</a>
-                                <a href="pagcurso-CSS.php">CSS</a>
-                                <a href="pagcurso-JScript.php">JavaScript</a>
+                                <a href="pagcurso-HTML-perfil.php">HTML</a>
+                                <a href="pagcurso-CSS.php-perfil">CSS</a>
+                                <a href="pagcurso-JScript-perfil.php">JavaScript</a>
                                 </div>
                     </li>
 

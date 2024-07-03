@@ -40,11 +40,8 @@
         foreach($dados as $chave){
                 $nome = explode(" ", $chave["nome"]);
                 $email = $chave["email"];
-        }
-       
+        }  
     }
-
-
     ?>
 
 <main>
