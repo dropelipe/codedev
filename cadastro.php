@@ -30,7 +30,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
     $sql=$pdo-> prepare("INSERT INTO cadastro VALUES (NULL,?,?,?,?,?,?,?);");
     $sql -> execute (array ($nome, $email, $number, $cep, $birth, $education,$pswrd));
+
+    // header('location:login.php');
+
+    echo "<script language='javaScript'> window.location.href='login.php'</script>";
+
+
 }
+
 ?>
 
 <div class="box">

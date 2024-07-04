@@ -1,3 +1,29 @@
+<?php
+
+ob_start();
+
+
+        require("conexao.php");
+
+        session_start();
+
+        if(isset($_SESSION['email'])){
+            $email = $_SESSION['email'];
+            $sql = $pdo->prepare("SELECT * FROM cadastro WHERE email=?");
+            $sql -> execute(array($email));
+            $dados = $sql -> fetchAll();
+
+
+            foreach($dados as $chave){
+                    $nome = explode(" ", $chave["nome"]);
+                    $email = $chave["email"];
+            }  
+        } else{
+            echo "<script language='javaScript'> window.location.href='login.php'</script>";
+        }
+
+    ob_end_flush();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,25 +50,8 @@
    <!-- NAVBAR -->
    <?php    
     require('php/cabecalho-perfil.php');
-
-    require("conexao.php");
-
-    session_start();
-    if(isset($_SESSION['email'])){
-        $email = $_SESSION['email'];
-        $sql = $pdo->prepare("SELECT * FROM cadastro WHERE email=?");
-        $sql -> execute(array($email));
-        $dados = $sql -> fetchAll();
-
-        //var_dump($dados);
-        //$nome = $dados["nome"];
-
-        foreach($dados as $chave){
-                $nome = explode(" ", $chave["nome"]);
-                $email = $chave["email"];
-        }  
-    }
     ?>
+
 
 <main>
         <section class="topo-do-site">

@@ -23,7 +23,7 @@
                     <li class="dropdown"><a>Cursos <i class="bi bi-chevron-compact-down"></i></a>
                             <div class="dropdown-content">
                                 <a href="pagcurso-HTML-perfil.php">HTML</a>
-                                <a href="pagcurso-CSS.php-perfil">CSS</a>
+                                <a href="pagcurso-CSS-perfil.php">CSS</a>
                                 <a href="pagcurso-JScript-perfil.php">JavaScript</a>
                                 </div>
                     </li>
@@ -36,7 +36,9 @@
 
             <div class="logins-nav"> <!--logins-->
 
-                <a href="login.php">Sair <i class="bi bi-box-arrow-in-right"></i></a>
+                <a href="login.php"
+                onclick="sair_perfil()"
+                >Sair <i class="bi bi-box-arrow-in-right"></i></a>
                 <a class="btn-perfil" href="#"><button><i class="bi bi-person-circle"></i></button></a>
 
             </div><!--end logins-->

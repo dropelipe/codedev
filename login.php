@@ -1,3 +1,43 @@
+<?php
+
+ob_start();
+
+require("conexao.php");
+
+
+    session_start();
+
+
+    if(isset($_POST['email-codedev']) && isset($_POST['pswrd-codedev'])){
+        $email = $_POST['email-codedev'];
+        $senha = md5($_POST['pswrd-codedev']);
+
+/*INFORMAÇÕES DO BANCO + html*/ 
+        $sql = $pdo->prepare("SELECT email, pswrd FROM cadastro WHERE email=? AND pswrd=?");
+        $sql -> execute(array($email, $senha));
+        $dados = $sql -> fetchAll();
+        // header('location:perfil.php');
+
+        if(count($dados)==1){
+        $_SESSION['email'] = $email;
+        // echo($_SESSION[
+        //     "email"
+        // ]);
+        // header('location:perfil.php');
+    echo "<script language='javaScript'> window.location.href='perfil.php'</script>";
+
+        } elseif (count($dados)==0){
+        echo(
+        '<script> alert("Usuário e/ou senha inválidos"); </script>;'
+        );
+        header('location:.php');
+        }
+    }
+
+    ob_end_flush();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,40 +57,6 @@
     </script>
 </head>
 <body>
-<?php
-require("conexao.php");
-
-
-    session_start();
-
-
-    if(isset($_POST['email-codedev']) && isset($_POST['pswrd-codedev'])){
-        $email = $_POST['email-codedev'];
-        $senha = md5($_POST['pswrd-codedev']);
-
-/*INFORMAÇÕES DO BANCO + html*/ 
-        $sql = $pdo->prepare("SELECT email, pswrd FROM cadastro WHERE email=? AND pswrd=?");
-        $sql -> execute(array($email, $senha));
-        $dados = $sql -> fetchAll();
-
-        var_dump($dados);
-
-        if(count($dados)==1){
-        $_SESSION['email'] = $email;
-        header('location:perfil.php');
-        //echo(
-       //     "<script> window.location.href='https://projetointegrador.com.br/code-dev/perfil.php'</script>"
-        //);
-
-        } elseif (count($dados)==0){
-        echo(
-        '<script> alert("Usuário e/ou senha inválidos"); </script>;'
-        );
-        header('location:index.php');
-        }
-    }
-
-?>
 
 <div class="form-wrapper">
     <h2>Entrar</h2>
